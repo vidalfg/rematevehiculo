@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agencia Virtual- SAT</title> 
+  <link rel="icon" type="image/jpg" href="img/icono.png"/>
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- icheck bootstrap -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+
+  <style>
+    body {
+      background-image: url('img/bannerWeb_agenciavirtual5.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    </style>
+
+</head>
+<body class="hold-transition login-page">
+<div class="login-box">
+  <!-- /.login-logo -->
+  <div class="card card-outline card-primary">
+    <div class="card-header text-center d-lg-none">
+      <a href="index2.html" class="h1"><b>AGENCIA VIRTUAL</b>- SAT</a>
+    </div>
+    <div class="card-body">
+      <p class="login-box-msg">Iniciar sesión</p>
+      <form>
+        <div class="input-group mb-3">
+          <select class="form-control campo-dato valid" data-val="true" data-val-required="Seleccione el tipo de documento de identidad" id="sCodTipoDocIde" name="sCodTipoDocIde" aria-required="true" aria-describedby="sCodTipoDocIde-error" aria-invalid="false"><option value="">Seleccione...</option>
+            <option value="1">RUC</option>
+            <option value="2" selected>DNI</option>
+            <option value="4">Carné de Extranjería</option>
+            <option value="5">Pasaporte</option>
+            <option value="7">Permiso Temp. Permanencia</option>
+            </select>
+          
+        </div>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Ingrese N. ° de DNI">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="password" class="form-control" placeholder="Ingrese la contraseña del usuario">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <div class="icheck-primary">
+              <input type="checkbox" id="remember">
+              <label for="remember">
+                Mostrar contraseña
+              </label>
+            </div>
+          </div>
+         
+        </div>
+        <div class="row">
+          
+          <!-- /.col -->
+          <div class="col-12">
+            <a href="SAT_Portal.html" class="btn btn-primary btn-block"> <i class="fas fa-arrow-circle-right mr-2"></i> Ingresar</a>
+            <!-- <button type="submit" class="btn btn-primary btn-block">
+              <i class="fas fa-arrow-circle-right mr-2"></i> Ingresar</button> -->
+          </div>
+          <!-- /.col -->
+        </div>
+      </form>
+      <p class="mb-0">
+        <a href="forgot-password.html">Olvidé mi contraseña</a>
+      </p>
+      <p class="mb-0">
+        <a href="register.html" class="text-center">Cambiar mi contraseña</a>
+      </p>
+      <p class="mb-0">
+        <a href="register.html" style="color: Red;" class="text-center">No tengo usuario(Registrar)</a>
+      </p>
+    </div>
+    <!-- /.card-body -->
+  </div>
+  <!-- /.card -->
+</div>
+<!-- /.login-box -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+</body>
+</html>
